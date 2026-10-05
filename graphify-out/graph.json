@@ -1,0 +1,5296 @@
+{
+  "directed": false,
+  "multigraph": false,
+  "graph": {},
+  "nodes": [
+    {
+      "id": "scripts_gerar_grafo_dentro_do_escopo",
+      "label": "dentro_do_escopo()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "gerar-grafo.py",
+      "file_type": "code",
+      "norm_label": "dentro_do_escopo()",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L28"
+    },
+    {
+      "id": "scripts_gerar_grafo_main",
+      "label": "main()",
+      "_callable": true,
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "gerar-grafo.py",
+      "file_type": "code",
+      "norm_label": "main()",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L36"
+    },
+    {
+      "id": "backup_coolify",
+      "label": "backup-coolify.sh",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "norm_label": "backup-coolify.sh",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1"
+    },
+    {
+      "id": "backup_coolify_agora",
+      "label": "agora()",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "agora()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L71"
+    },
+    {
+      "id": "backup_coolify_avisos",
+      "label": "AVISOS",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "avisos",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L60"
+    },
+    {
+      "id": "backup_coolify_banco_engine",
+      "label": "BANCO_ENGINE",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "banco_engine",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L955"
+    },
+    {
+      "id": "backup_coolify_banco_id",
+      "label": "BANCO_ID",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "banco_id",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L955"
+    },
+    {
+      "id": "backup_coolify_banco_nome",
+      "label": "BANCO_NOME",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "banco_nome",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L955"
+    },
+    {
+      "id": "backup_coolify_binds",
+      "label": "BINDS",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "binds",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L917"
+    },
+    {
+      "id": "backup_coolify_binds_brutos",
+      "label": "BINDS_BRUTOS",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "binds_brutos",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L894"
+    },
+    {
+      "id": "backup_coolify_containers_parados",
+      "label": "CONTAINERS_PARADOS",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "containers_parados",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L59"
+    },
+    {
+      "id": "backup_coolify_cor",
+      "label": "cor()",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "cor()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L70"
+    },
+    {
+      "id": "backup_coolify_erros",
+      "label": "ERROS",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "erros",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L61"
+    },
+    {
+      "id": "backup_coolify_escopo_conf_curto",
+      "label": "escopo_conf_curto()",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "escopo_conf_curto()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L699"
+    },
+    {
+      "id": "backup_coolify_escopo_oauth",
+      "label": "escopo_oauth()",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "escopo_oauth()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L426"
+    },
+    {
+      "id": "backup_coolify_flags_tar",
+      "label": "FLAGS_TAR",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "flags_tar",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L62"
+    },
+    {
+      "id": "backup_coolify_legivel",
+      "label": "legivel()",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "legivel()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L209"
+    },
+    {
+      "id": "backup_coolify_precisa_parar",
+      "label": "PRECISA_PARAR",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "precisa_parar",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1122"
+    },
+    {
+      "id": "backup_coolify_volumes_do_container",
+      "label": "volumes_do_container()",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "volumes_do_container()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1332"
+    },
+    {
+      "id": "backup_coolify_volumes_prontos",
+      "label": "VOLUMES_PRONTOS",
+      "_origin": "ast",
+      "community": 0,
+      "community_name": "backup-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "volumes_prontos",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L63"
+    },
+    {
+      "id": "restaurar_coolify_ajuda",
+      "label": "ajuda()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "ajuda()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L70"
+    },
+    {
+      "id": "restaurar_coolify_api_responde",
+      "label": "api_responde()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "api_responde()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1010"
+    },
+    {
+      "id": "restaurar_coolify_banco_pg",
+      "label": "banco_pg()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "banco_pg()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L451"
+    },
+    {
+      "id": "restaurar_coolify_conta",
+      "label": "conta()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "conta()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L166"
+    },
+    {
+      "id": "restaurar_coolify_espera_banco",
+      "label": "espera_banco()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "espera_banco()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L803"
+    },
+    {
+      "id": "restaurar_coolify_espera_painel",
+      "label": "espera_painel()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "espera_painel()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L998"
+    },
+    {
+      "id": "restaurar_coolify_estava_de_pe_na_origem",
+      "label": "estava_de_pe_na_origem()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "estava_de_pe_na_origem()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1051"
+    },
+    {
+      "id": "restaurar_coolify_exige_palavra",
+      "label": "exige_palavra()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "exige_palavra()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L185"
+    },
+    {
+      "id": "restaurar_coolify_feito",
+      "label": "feito()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "feito()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L64"
+    },
+    {
+      "id": "restaurar_coolify_item",
+      "label": "item()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "item()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L485"
+    },
+    {
+      "id": "restaurar_coolify_ja_subiu_por_compose",
+      "label": "ja_subiu_por_compose()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "ja_subiu_por_compose()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1061"
+    },
+    {
+      "id": "restaurar_coolify_le_info",
+      "label": "le_info()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "le_info()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L324"
+    },
+    {
+      "id": "restaurar_coolify_morre",
+      "label": "morre()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "morre()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L67"
+    },
+    {
+      "id": "restaurar_coolify_passo",
+      "label": "passo()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "passo()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L63"
+    },
+    {
+      "id": "restaurar_coolify_pergunta",
+      "label": "pergunta()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "pergunta()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L177"
+    },
+    {
+      "id": "restaurar_coolify_sh__entry",
+      "label": "restaurar-coolify.sh script",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "norm_label": "restaurar-coolify.sh script",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1"
+    },
+    {
+      "id": "restaurar_coolify_usuario_pg",
+      "label": "usuario_pg()",
+      "_origin": "ast",
+      "community": 1,
+      "community_name": "restaurar-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "usuario_pg()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L449"
+    },
+    {
+      "id": "restaurar_coolify_apaga_token_api",
+      "label": "apaga_token_api()",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "apaga_token_api",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "apaga_token_api()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1042"
+    },
+    {
+      "id": "restaurar_coolify_cria_token_api",
+      "label": "cria_token_api()",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "apaga_token_api",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "cria_token_api()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1022"
+    },
+    {
+      "id": "restaurar_coolify_na_saida",
+      "label": "na_saida()",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "apaga_token_api",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "na_saida()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L193"
+    },
+    {
+      "id": "restaurar_coolify_psql_painel",
+      "label": "psql_painel()",
+      "_origin": "ast",
+      "community": 10,
+      "community_name": "apaga_token_api",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "psql_painel()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L962"
+    },
+    {
+      "id": "restaurar_coolify_define_compose",
+      "label": "define_compose()",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "instala_coolify",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "define_compose()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L390"
+    },
+    {
+      "id": "restaurar_coolify_diz",
+      "label": "diz()",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "instala_coolify",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "diz()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L62"
+    },
+    {
+      "id": "restaurar_coolify_instala_coolify",
+      "label": "instala_coolify()",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "instala_coolify",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "instala_coolify()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L396"
+    },
+    {
+      "id": "restaurar_coolify_tem",
+      "label": "tem()",
+      "_origin": "ast",
+      "community": 11,
+      "community_name": "instala_coolify",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "tem()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L164"
+    },
+    {
+      "id": "backup_coolify_diz",
+      "label": "diz()",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "diz",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "diz()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L72"
+    },
+    {
+      "id": "backup_coolify_na_saida",
+      "label": "na_saida()",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "diz",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "na_saida()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L308"
+    },
+    {
+      "id": "backup_coolify_religa_containers",
+      "label": "religa_containers()",
+      "_origin": "ast",
+      "community": 12,
+      "community_name": "diz",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "religa_containers()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L286"
+    },
+    {
+      "id": "backup_coolify_ajuda",
+      "label": "ajuda()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "ajuda()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L81"
+    },
+    {
+      "id": "backup_coolify_aviso",
+      "label": "aviso()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "aviso()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L75"
+    },
+    {
+      "id": "backup_coolify_conta",
+      "label": "conta()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "conta()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L204"
+    },
+    {
+      "id": "backup_coolify_copia_se_tem",
+      "label": "copia_se_tem()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "copia_se_tem()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1516"
+    },
+    {
+      "id": "backup_coolify_copia_volume",
+      "label": "copia_volume()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "copia_volume()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1343"
+    },
+    {
+      "id": "backup_coolify_detecta_engine",
+      "label": "detecta_engine()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "detecta_engine()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L934"
+    },
+    {
+      "id": "backup_coolify_espaco_livre",
+      "label": "espaco_livre()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "espaco_livre()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L231"
+    },
+    {
+      "id": "backup_coolify_ignora_bind",
+      "label": "ignora_bind()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "ignora_bind()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L903"
+    },
+    {
+      "id": "backup_coolify_ja_pronto",
+      "label": "ja_pronto()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "ja_pronto()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1337"
+    },
+    {
+      "id": "backup_coolify_morre",
+      "label": "morre()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "morre()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L77"
+    },
+    {
+      "id": "backup_coolify_nome_do_container",
+      "label": "nome_do_container()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "nome_do_container()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L261"
+    },
+    {
+      "id": "backup_coolify_para_container",
+      "label": "para_container()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "para_container()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1374"
+    },
+    {
+      "id": "backup_coolify_sh__entry",
+      "label": "backup-coolify.sh script",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "norm_label": "backup-coolify.sh script",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1"
+    },
+    {
+      "id": "backup_coolify_slug",
+      "label": "slug()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "slug()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L238"
+    },
+    {
+      "id": "backup_coolify_tamanho_de",
+      "label": "tamanho_de()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "tamanho_de()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L218"
+    },
+    {
+      "id": "backup_coolify_tar_para_arquivo",
+      "label": "tar_para_arquivo()",
+      "_origin": "ast",
+      "community": 2,
+      "community_name": "backup-coolify.sh script",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "tar_para_arquivo()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L267"
+    },
+    {
+      "id": "restaurar_coolify",
+      "label": "restaurar-coolify.sh",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "norm_label": "restaurar-coolify.sh",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1"
+    },
+    {
+      "id": "restaurar_coolify_agora",
+      "label": "agora()",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "agora()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L61"
+    },
+    {
+      "id": "restaurar_coolify_atualiza_pg",
+      "label": "atualiza_pg()",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "atualiza_pg()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L814"
+    },
+    {
+      "id": "restaurar_coolify_avisos",
+      "label": "AVISOS",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "avisos",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L52"
+    },
+    {
+      "id": "restaurar_coolify_cor",
+      "label": "cor()",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "cor()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L60"
+    },
+    {
+      "id": "restaurar_coolify_deploy_feito",
+      "label": "DEPLOY_FEITO",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "deploy_feito",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1082"
+    },
+    {
+      "id": "restaurar_coolify_deploy_pulado",
+      "label": "DEPLOY_PULADO",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "deploy_pulado",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1082"
+    },
+    {
+      "id": "restaurar_coolify_deploy_recusado",
+      "label": "DEPLOY_RECUSADO",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "deploy_recusado",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1082"
+    },
+    {
+      "id": "restaurar_coolify_dispara_recurso",
+      "label": "dispara_recurso()",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "dispara_recurso()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1069"
+    },
+    {
+      "id": "restaurar_coolify_erros",
+      "label": "ERROS",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "erros",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L53"
+    },
+    {
+      "id": "restaurar_coolify_flags_extracao",
+      "label": "FLAGS_EXTRACAO",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "flags_extracao",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L54"
+    },
+    {
+      "id": "restaurar_coolify_legivel",
+      "label": "legivel()",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "legivel()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L171"
+    },
+    {
+      "id": "restaurar_coolify_nao_subiram",
+      "label": "NAO_SUBIRAM",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "nao_subiram",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L56"
+    },
+    {
+      "id": "restaurar_coolify_recursos",
+      "label": "RECURSOS",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "recursos",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L967"
+    },
+    {
+      "id": "restaurar_coolify_subiram",
+      "label": "SUBIRAM",
+      "_origin": "ast",
+      "community": 3,
+      "community_name": "restaurar-coolify.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "code"
+      },
+      "norm_label": "subiram",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L55"
+    },
+    {
+      "id": "scripts_testa_auth",
+      "label": "testa-auth.sh",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "file"
+      },
+      "norm_label": "testa-auth.sh",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_testa_auth_arquivo_conf_rclone",
+      "label": "arquivo_conf_rclone()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "arquivo_conf_rclone()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L67"
+    },
+    {
+      "id": "scripts_testa_auth_caso",
+      "label": "caso()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "caso()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L38"
+    },
+    {
+      "id": "scripts_testa_auth_curl",
+      "label": "curl()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "curl()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L66"
+    },
+    {
+      "id": "scripts_testa_auth_le_do_tty",
+      "label": "le_do_tty()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "le_do_tty()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L64"
+    },
+    {
+      "id": "scripts_testa_auth_nao_tem_texto",
+      "label": "nao_tem_texto()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "nao_tem_texto()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L76"
+    },
+    {
+      "id": "scripts_testa_auth_nok",
+      "label": "nok()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "nok()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L37"
+    },
+    {
+      "id": "scripts_testa_auth_ok",
+      "label": "ok()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "ok()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L36"
+    },
+    {
+      "id": "scripts_testa_auth_prepara",
+      "label": "prepara()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "prepara()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L40"
+    },
+    {
+      "id": "scripts_testa_auth_roda_auth",
+      "label": "roda_auth()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "roda_auth()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L51"
+    },
+    {
+      "id": "scripts_testa_auth_sh__entry",
+      "label": "testa-auth.sh script",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_entrypoint"
+      },
+      "norm_label": "testa-auth.sh script",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_testa_auth_tem_terminal",
+      "label": "tem_terminal()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "tem_terminal()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L65"
+    },
+    {
+      "id": "scripts_testa_auth_tem_texto",
+      "label": "tem_texto()",
+      "_origin": "ast",
+      "community": 4,
+      "community_name": "testa-auth.sh",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "tem_texto()",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L75"
+    },
+    {
+      "id": "backup_coolify_arquivo_conf_rclone",
+      "label": "arquivo_conf_rclone()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "arquivo_conf_rclone()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L510"
+    },
+    {
+      "id": "backup_coolify_configura_drive",
+      "label": "configura_drive()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "configura_drive()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L763"
+    },
+    {
+      "id": "backup_coolify_envia_para_drive",
+      "label": "envia_para_drive()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "envia_para_drive()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L800"
+    },
+    {
+      "id": "backup_coolify_escreve_remote_rclone",
+      "label": "escreve_remote_rclone()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "escreve_remote_rclone()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L526"
+    },
+    {
+      "id": "backup_coolify_falha",
+      "label": "falha()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "falha()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L76"
+    },
+    {
+      "id": "backup_coolify_feito",
+      "label": "feito()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "feito()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L74"
+    },
+    {
+      "id": "backup_coolify_instala_rclone",
+      "label": "instala_rclone()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "instala_rclone()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L476"
+    },
+    {
+      "id": "backup_coolify_passo",
+      "label": "passo()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "passo()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L73"
+    },
+    {
+      "id": "backup_coolify_remote_ja_existe",
+      "label": "remote_ja_existe()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "remote_ja_existe()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L517"
+    },
+    {
+      "id": "backup_coolify_tem",
+      "label": "tem()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "tem()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L196"
+    },
+    {
+      "id": "backup_coolify_testa_remote",
+      "label": "testa_remote()",
+      "_origin": "ast",
+      "community": 5,
+      "community_name": "configura_drive",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "testa_remote()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L521"
+    },
+    {
+      "id": "backup_coolify_b64",
+      "label": "b64()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "b64()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L202"
+    },
+    {
+      "id": "backup_coolify_confere_dump",
+      "label": "confere_dump()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "confere_dump()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1128"
+    },
+    {
+      "id": "backup_coolify_dump_clickhouse",
+      "label": "dump_clickhouse()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "dump_clickhouse()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1265"
+    },
+    {
+      "id": "backup_coolify_dump_mongo",
+      "label": "dump_mongo()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "dump_mongo()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1210"
+    },
+    {
+      "id": "backup_coolify_dump_mysql",
+      "label": "dump_mysql()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "dump_mysql()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1178"
+    },
+    {
+      "id": "backup_coolify_dump_postgres",
+      "label": "dump_postgres()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "dump_postgres()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1135"
+    },
+    {
+      "id": "backup_coolify_env_do_container",
+      "label": "env_do_container()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "env_do_container()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L256"
+    },
+    {
+      "id": "backup_coolify_registra_banco",
+      "label": "registra_banco()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "registra_banco()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1124"
+    },
+    {
+      "id": "backup_coolify_roda_no_container",
+      "label": "roda_no_container()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "roda_no_container()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L244"
+    },
+    {
+      "id": "backup_coolify_salva_redis",
+      "label": "salva_redis()",
+      "_origin": "ast",
+      "community": 6,
+      "community_name": "dump_postgres",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "salva_redis()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1239"
+    },
+    {
+      "id": "backup_coolify_autoriza_por_chave_propria",
+      "label": "autoriza_por_chave_propria()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "autoriza_por_chave_propria()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L748"
+    },
+    {
+      "id": "backup_coolify_autoriza_por_link",
+      "label": "autoriza_por_link()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "autoriza_por_link()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L582"
+    },
+    {
+      "id": "backup_coolify_escopo_codificado",
+      "label": "escopo_codificado()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "escopo_codificado()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L432"
+    },
+    {
+      "id": "backup_coolify_le_do_tty",
+      "label": "le_do_tty()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "le_do_tty()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L453"
+    },
+    {
+      "id": "backup_coolify_mostra_passos_da_chave",
+      "label": "mostra_passos_da_chave()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "mostra_passos_da_chave()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L712"
+    },
+    {
+      "id": "backup_coolify_numero_json",
+      "label": "numero_json()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "numero_json()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L471"
+    },
+    {
+      "id": "backup_coolify_pergunta_sim",
+      "label": "pergunta_sim()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "pergunta_sim()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L444"
+    },
+    {
+      "id": "backup_coolify_tem_terminal",
+      "label": "tem_terminal()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "tem_terminal()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L442"
+    },
+    {
+      "id": "backup_coolify_valor_json",
+      "label": "valor_json()",
+      "_origin": "ast",
+      "community": 7,
+      "community_name": "autoriza_por_link",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "valor_json()",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L467"
+    },
+    {
+      "id": "scripts_gerar_grafo",
+      "label": "gerar-grafo.py",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "gerar-grafo.py",
+      "file_type": "code",
+      "norm_label": "gerar-grafo.py",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L1"
+    },
+    {
+      "id": "scripts_gerar_grafo_rationale_2",
+      "label": "Gera o grafo do graphify deste repositorio em graphify-out/. Entrega sempre os\u2026",
+      "_origin": "ast",
+      "community": 8,
+      "community_name": "gerar-grafo.py",
+      "file_type": "rationale",
+      "norm_label": "gera o grafo do graphify deste repositorio em graphify-out/. entrega sempre os...",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L2"
+    },
+    {
+      "id": "restaurar_coolify_aviso",
+      "label": "aviso()",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "restaura_volume",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "aviso()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L65"
+    },
+    {
+      "id": "restaurar_coolify_escolhe_temp",
+      "label": "escolhe_temp()",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "restaura_volume",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "escolhe_temp()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L237"
+    },
+    {
+      "id": "restaurar_coolify_falha",
+      "label": "falha()",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "restaura_volume",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "falha()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L66"
+    },
+    {
+      "id": "restaurar_coolify_meta_do_volume",
+      "label": "meta_do_volume()",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "restaura_volume",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "meta_do_volume()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L637"
+    },
+    {
+      "id": "restaurar_coolify_restaura_volume",
+      "label": "restaura_volume()",
+      "_origin": "ast",
+      "community": 9,
+      "community_name": "restaura_volume",
+      "file_type": "code",
+      "metadata": {
+        "language": "bash",
+        "kind": "bash_function"
+      },
+      "norm_label": "restaura_volume()",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L642"
+    },
+    {
+      "id": "json",
+      "label": "json",
+      "community": 8,
+      "community_name": "gerar-grafo.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "json",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "pathlib",
+      "label": "pathlib",
+      "community": 8,
+      "community_name": "gerar-grafo.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "pathlib",
+      "source_file": "",
+      "type": "external"
+    },
+    {
+      "id": "sys",
+      "label": "sys",
+      "community": 8,
+      "community_name": "gerar-grafo.py",
+      "external": true,
+      "file_type": "concept",
+      "norm_label": "sys",
+      "source_file": "",
+      "type": "external"
+    }
+  ],
+  "links": [
+    {
+      "source": "backup_coolify_autoriza_por_chave_propria",
+      "target": "backup_coolify_mostra_passos_da_chave",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L749",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_chave_propria",
+      "target": "backup_coolify_le_do_tty",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L752",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_chave_propria",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L757",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_chave_propria",
+      "target": "backup_coolify_autoriza_por_link",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L760",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L587",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_escopo_codificado",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L601",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_le_do_tty",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L618",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L622",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L623",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L634",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_valor_json",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L662",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_numero_json",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L671",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_autoriza_por_link",
+      "target": "backup_coolify_escreve_remote_rclone",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L690",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_passo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L764",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_instala_rclone",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L766",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_remote_ja_existe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L768",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_testa_remote",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L769",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L770",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L773",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_tem_terminal",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L776",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L777",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L782",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_autoriza_por_chave_propria",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L785",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_autoriza_por_link",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L787",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_configura_drive",
+      "target": "backup_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L790",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_copia_volume",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1347",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_copia_volume",
+      "target": "backup_coolify_slug",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1350",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_copia_volume",
+      "target": "backup_coolify_tar_para_arquivo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1355",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_copia_volume",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1367",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_clickhouse",
+      "target": "backup_coolify_env_do_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1268",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_clickhouse",
+      "target": "backup_coolify_b64",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1276",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_clickhouse",
+      "target": "backup_coolify_roda_no_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1285",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_clickhouse",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1286",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_clickhouse",
+      "target": "backup_coolify_registra_banco",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1287",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mongo",
+      "target": "backup_coolify_env_do_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1213",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mongo",
+      "target": "backup_coolify_b64",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1217",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mongo",
+      "target": "backup_coolify_roda_no_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1226",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mongo",
+      "target": "backup_coolify_confere_dump",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1227",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mongo",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1228",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mongo",
+      "target": "backup_coolify_registra_banco",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1229",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mysql",
+      "target": "backup_coolify_env_do_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1181",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mysql",
+      "target": "backup_coolify_b64",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1186",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mysql",
+      "target": "backup_coolify_roda_no_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1199",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mysql",
+      "target": "backup_coolify_confere_dump",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1200",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mysql",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1201",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_mysql",
+      "target": "backup_coolify_registra_banco",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1202",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_postgres",
+      "target": "backup_coolify_env_do_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1138",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_postgres",
+      "target": "backup_coolify_b64",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1142",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_postgres",
+      "target": "backup_coolify_roda_no_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1148",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_postgres",
+      "target": "backup_coolify_confere_dump",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1149",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_postgres",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1150",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_postgres",
+      "target": "backup_coolify_registra_banco",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1151",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_dump_postgres",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1168",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L802",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_passo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L804",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_instala_rclone",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L805",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_remote_ja_existe",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L806",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_testa_remote",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L806",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_configura_drive",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L807",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L815",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_arquivo_conf_rclone",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L819",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L827",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_envia_para_drive",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L836",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_escreve_remote_rclone",
+      "target": "backup_coolify_arquivo_conf_rclone",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L528",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_escreve_remote_rclone",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L556",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_instala_rclone",
+      "target": "backup_coolify_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L477",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_instala_rclone",
+      "target": "backup_coolify_passo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L478",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_instala_rclone",
+      "target": "backup_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L481",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_instala_rclone",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L483",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_instala_rclone",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L493",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_instala_rclone",
+      "target": "backup_coolify_pergunta_sim",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L497",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_instala_rclone",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L498",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_le_do_tty",
+      "target": "backup_coolify_tem_terminal",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L455",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_na_saida",
+      "target": "backup_coolify_religa_containers",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L311",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_na_saida",
+      "target": "backup_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L313",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_para_container",
+      "target": "backup_coolify_nome_do_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1376",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_para_container",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1382",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_pergunta_sim",
+      "target": "backup_coolify_tem_terminal",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L447",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_religa_containers",
+      "target": "backup_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L288",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_religa_containers",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L295",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_salva_redis",
+      "target": "backup_coolify_env_do_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1242",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_salva_redis",
+      "target": "backup_coolify_b64",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1250",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_salva_redis",
+      "target": "backup_coolify_roda_no_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1259",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_slug",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1073",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_dump_postgres",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1303",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_dump_mysql",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1304",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_dump_mongo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1306",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_salva_redis",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1307",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_registra_banco",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1309",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_dump_clickhouse",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1311",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1318",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_para_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1394",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_ja_pronto",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1396",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_copia_volume",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1397",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_conta",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1476",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_tar_para_arquivo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1494",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_copia_se_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1518",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_religa_containers",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1569",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_envia_para_drive",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1810",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_ajuda",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L183",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_morre",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L184",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L329",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L332",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L333",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_passo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L344",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L349",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_configura_drive",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L874",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_ignora_bind",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L921",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_detecta_engine",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L957",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_nome_do_container",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L959",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_tamanho_de",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L970",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_sh__entry",
+      "target": "backup_coolify_espaco_livre",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L986",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify_tar_para_arquivo",
+      "target": "backup_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "backup-coolify.sh",
+      "source_location": "L276",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_apaga_token_api",
+      "target": "restaurar_coolify_psql_painel",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1044",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_cria_token_api",
+      "target": "restaurar_coolify_psql_painel",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1037",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_define_compose",
+      "target": "restaurar_coolify_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L392",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_escolhe_temp",
+      "target": "restaurar_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L247",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_instala_coolify",
+      "target": "restaurar_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L398",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_instala_coolify",
+      "target": "restaurar_coolify_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L398",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_instala_coolify",
+      "target": "restaurar_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L403",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_na_saida",
+      "target": "restaurar_coolify_apaga_token_api",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L197",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_restaura_volume",
+      "target": "restaurar_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L644",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_restaura_volume",
+      "target": "restaurar_coolify_meta_do_volume",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L646",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_restaura_volume",
+      "target": "restaurar_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L655",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_espera_painel",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1092",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_cria_token_api",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1100",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_api_responde",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1109",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_apaga_token_api",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1110",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_ja_subiu_por_compose",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1118",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_estava_de_pe_na_origem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1123",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_dispara_recurso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1128",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_ajuda",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L154",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_morre",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L155",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_passo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L205",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_tem",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L208",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_feito",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L224",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_aviso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L226",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_escolhe_temp",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L254",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_diz",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L270",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_le_info",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L325",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_conta",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L334",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_pergunta",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L428",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_instala_coolify",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L431",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_define_compose",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L443",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_usuario_pg",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L454",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_banco_pg",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L455",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_exige_palavra",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L464",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_item",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L487",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_falha",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L557",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_restaura_volume",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L686",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_atualiza_pg",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L830",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify_sh__entry",
+      "target": "restaurar_coolify_espera_banco",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L856",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_gerar_grafo_main",
+      "target": "scripts_gerar_grafo_dentro_do_escopo",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_roda_auth",
+      "target": "scripts_testa_auth_prepara",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_sh__entry",
+      "target": "scripts_testa_auth_caso",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L83",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_sh__entry",
+      "target": "scripts_testa_auth_roda_auth",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L85",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_sh__entry",
+      "target": "scripts_testa_auth_nok",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_sh__entry",
+      "target": "scripts_testa_auth_ok",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L87",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_sh__entry",
+      "target": "scripts_testa_auth_tem_texto",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L88",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_sh__entry",
+      "target": "scripts_testa_auth_nao_tem_texto",
+      "relation": "calls",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "call",
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L95",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_gerar_grafo",
+      "target": "json",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L16",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_gerar_grafo",
+      "target": "sys",
+      "relation": "imports",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L17",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_gerar_grafo",
+      "target": "pathlib",
+      "relation": "imports_from",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "context": "import",
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L18",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_sh__entry",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_sh__entry",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_gerar_grafo",
+      "target": "scripts_gerar_grafo_dentro_do_escopo",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L28",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_gerar_grafo",
+      "target": "scripts_gerar_grafo_main",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_sh__entry",
+      "relation": "contains",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L1",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_precisa_parar",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1122",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_registra_banco",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1124",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_confere_dump",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1128",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_dump_postgres",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1135",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_dump_mysql",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1178",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_dump_mongo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1210",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_salva_redis",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1239",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_dump_clickhouse",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1265",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_volumes_do_container",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1332",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_ja_pronto",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1337",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_copia_volume",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1343",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_para_container",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1374",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_copia_se_tem",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L1516",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_tem",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L196",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_b64",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L202",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_conta",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L204",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_legivel",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L209",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_tamanho_de",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L218",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_espaco_livre",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L231",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_slug",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L238",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_roda_no_container",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L244",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_env_do_container",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L256",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_nome_do_container",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L261",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_tar_para_arquivo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L267",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_religa_containers",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L286",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_na_saida",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L308",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_escopo_oauth",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L426",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_escopo_codificado",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L432",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_tem_terminal",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L442",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_pergunta_sim",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L444",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_le_do_tty",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L453",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_valor_json",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L467",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_numero_json",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L471",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_instala_rclone",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L476",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_arquivo_conf_rclone",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L510",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_remote_ja_existe",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L517",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_testa_remote",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L521",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_escreve_remote_rclone",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L526",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_autoriza_por_link",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L582",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_containers_parados",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L59",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_avisos",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_erros",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_flags_tar",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_volumes_prontos",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_escopo_conf_curto",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L699",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_cor",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_agora",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L71",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_mostra_passos_da_chave",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L712",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_diz",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L72",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_passo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L73",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_feito",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L74",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_autoriza_por_chave_propria",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L748",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_aviso",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_falha",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_configura_drive",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L763",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_morre",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L77",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_envia_para_drive",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L800",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_ajuda",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L81",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_binds_brutos",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L894",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_ignora_bind",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L903",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_binds",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L917",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_detecta_engine",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L934",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_banco_engine",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L955",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_banco_id",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L955",
+      "weight": 1.0
+    },
+    {
+      "source": "backup_coolify",
+      "target": "backup_coolify_banco_nome",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "backup-coolify.sh",
+      "source_location": "L955",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_api_responde",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1010",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_cria_token_api",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1022",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_apaga_token_api",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1042",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_estava_de_pe_na_origem",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1051",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_ja_subiu_por_compose",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1061",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_dispara_recurso",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1069",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_deploy_feito",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1082",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_deploy_pulado",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1082",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_deploy_recusado",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L1082",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_tem",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L164",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_conta",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L166",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_legivel",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L171",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_pergunta",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L177",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_exige_palavra",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L185",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_na_saida",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L193",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_escolhe_temp",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L237",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_le_info",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L324",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_define_compose",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L390",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_instala_coolify",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L396",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_usuario_pg",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L449",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_banco_pg",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L451",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_item",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L485",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_avisos",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L52",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_erros",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L53",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_flags_extracao",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L54",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_subiram",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L55",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_nao_subiram",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L56",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_cor",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L60",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_agora",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L61",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_diz",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L62",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_passo",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L63",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_meta_do_volume",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L637",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_feito",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_restaura_volume",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L642",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_aviso",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_falha",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_morre",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_ajuda",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L70",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_espera_banco",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L803",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_atualiza_pg",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L814",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_psql_painel",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L962",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_recursos",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L967",
+      "weight": 1.0
+    },
+    {
+      "source": "restaurar_coolify",
+      "target": "restaurar_coolify_espera_painel",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "restaurar-coolify.sh",
+      "source_location": "L998",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_ok",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L36",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_nok",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L37",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_caso",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L38",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_prepara",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L40",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_roda_auth",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L51",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_tem_texto",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L75",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth",
+      "target": "scripts_testa_auth_nao_tem_texto",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L76",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_roda_auth",
+      "target": "scripts_testa_auth_le_do_tty",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L64",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_roda_auth",
+      "target": "scripts_testa_auth_tem_terminal",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L65",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_roda_auth",
+      "target": "scripts_testa_auth_curl",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L66",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_testa_auth_roda_auth",
+      "target": "scripts_testa_auth_arquivo_conf_rclone",
+      "relation": "defines",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/testa-auth.sh",
+      "source_location": "L67",
+      "weight": 1.0
+    },
+    {
+      "source": "scripts_gerar_grafo_rationale_2",
+      "target": "scripts_gerar_grafo",
+      "relation": "rationale_for",
+      "_origin": "ast",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1.0,
+      "source_file": "scripts/gerar-grafo.py",
+      "source_location": "L2",
+      "weight": 1.0
+    }
+  ],
+  "hyperedges": [],
+  "built_at_commit": "237b199eced48379583c6f8450d141a9d31e8cc8"
+}
