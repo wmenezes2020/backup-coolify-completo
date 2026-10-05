@@ -41,7 +41,7 @@ ler nenhuma credencial.
 | Relatório honesto | Falha e aviso aparecem no fim e no manifesto | saída lista avisos e falhas, código de saída 2 se houve falha |
 | Cifra opcional | AES256 por gpg, openssl como reserva | `--cifrar` gera `.tar.gz.gpg` |
 | Envio ao Google Drive | Opcional por flag, transporte rclone, autorização por link colado de volta | `--google-drive` entrega o pacote e confere o tamanho no destino |
-| Autorização sem navegador no servidor | Padrão: usa a chave embutida no rclone, operador roda `rclone authorize "drive"` na máquina dele e cola o token | `--drive-configurar` grava o remote sem `client_id` e o teste de conexão passa |
+| Autorização sem navegador no servidor | Um link e uma colada: o script mostra o link, o operador autoriza e cola de volta o endereço em que o navegador caiu. Usa a chave embutida no rclone | `--drive-configurar` grava o remote sem `client_id` e o teste de conexão passa, sem instalar nada na máquina do operador |
 | Caminho alternativo com chave própria | Cinco telas do Google Cloud, link gerado e URL de retorno colada | `--drive-chave-propria` grava `client_id` e `client_secret` no remote |
 | Retenção no Drive | Guarda os N mais novos na pasta | `--drive-manter N` remove só arquivo do padrão de nome do script |
 | Simulação | Mostra fonte, tamanho e estimativa sem gravar | `--simular` |
@@ -121,7 +121,7 @@ roda `git clean`, não mexe em histórico. Limpeza é pedido explícito.
 | Deploy automático com API simulada | token criado, 2 recursos na fila, 1 pulado por estar parado na origem, token apagado |
 | Rota por tipo de recurso | serviço foi por `/api/v1/deploy`, banco foi por `/api/v1/databases/<uuid>/start` |
 | Envio ao Google Drive com rclone simulado | arquivo no destino byte a byte igual ao local, tamanho conferido |
-| Leitura do token colado | aceita o bloco inteiro do `rclone authorize`, só a linha do JSON, com espaços em volta, e recusa token sem `refresh_token` |
+| Leitura da URL colada | tira o `code=` da URL inteira, aceita também o código solto, e recusa quando a pessoa nega na tela, quando nada foi colado, quando o código venceu e quando o token vem sem `refresh_token` (`scripts/testa-auth.sh`, 23 verificações) |
 | Escrita do `rclone.conf` | caminho padrão sai sem `client_id`, caminho de chave própria sai com os dois, e o remote de outro serviço no mesmo arquivo sobrevive |
 | Retenção no Drive | `--drive-manter 2` guardou os 2 mais novos e removeu 3 antigos |
 | Autorização sem terminal | recusou com instrução clara, sem travar esperando entrada |

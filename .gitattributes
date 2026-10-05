@@ -1,0 +1,12 @@
+# Este repositório entrega script que roda em servidor Linux. Com o autocrlf do
+# Git no Windows ligado, um clone nessa máquina devolveria backup-coolify.sh com
+# CRLF, e aí a primeira linha vira um shebang com retorno de carro no fim, que o
+# Linux não executa: o erro que aparece é "bad interpreter: no such file or
+# directory", e ninguém liga isso a fim de linha. Forçar LF resolve na origem.
+* text=auto eol=lf
+
+*.sh text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+*.json text eol=lf
+*.mdc text eol=lf

@@ -153,10 +153,26 @@ com pedaço, repetição e conferência de soma.
 O problema é a autorização: servidor não tem navegador, e o fluxo normal do
 rclone abre o navegador na própria máquina.
 
-O caminho padrão usa a chave que já vem embutida no rclone. O operador roda
-`rclone authorize "drive"` no computador dele, o navegador abre, ele autoriza, e
-o rclone imprime um token em uma linha, que ele cola no servidor. É o fluxo
-headless documentado do rclone, sem a parte do assistente de perguntas.
+O caminho é um link e uma colada. O script monta o link de consentimento com a
+chave que já vem embutida no rclone, o operador abre no navegador do computador
+dele, autoriza, e o navegador cai numa página de erro cujo endereço contém o
+código. Ele copia a URL inteira, cola no servidor, e o script troca o código por
+um token, com PKCE quando houver openssl.
+
+Nada para instalar na máquina de quem opera, e nenhum túnel. A versão anterior
+pedia o `rclone authorize` na máquina do operador, ou uma conexão
+`ssh -L` de pé, e as duas coisas eram complexidade que o fluxo não exige.
+
+O `redirect_uri` é o mesmo que o rclone registra, `http://127.0.0.1:53682/`, para
+não depender da tolerância do Google a variações de loopback.
+
+Vale registrar o que foi medido e descartado, para ninguém tentar de novo: o
+modo `urn:ietf:wg:oauth:2.0:oob`, que exibia o código na própria tela do Google,
+responde hoje `Error 400: invalid_request`, porque o Google o desligou em 2022; e
+o fluxo de dispositivo da RFC 8628, com código curto digitado em
+`google.com/device`, responde `invalid_client`, porque a chave do rclone é de
+aplicativo de computador e o escopo do Drive não entra nesse fluxo. O endereço de
+retorno não é escolha: é o que sobrou.
 
 Isso elimina a exigência de um projeto no Google Cloud. O Google passou a pedir
 faturamento e verificação para aprovar app novo, e nem sempre aprova. O
@@ -170,11 +186,9 @@ usar a chave embutida dele, inclusive para renovar o acesso. Gravar `client_id`
 vazio quebraria a renovação em uma hora.
 
 O caminho da chave própria continua disponível em `--drive-chave-propria`, para
-quem quiser a cota maior. Ali o script monta o link de consentimento com
-`redirect_uri` de localhost, o operador abre no computador dele, autoriza, e o
-navegador cai numa página de erro cujo endereço contém o código. O operador cola
-a URL inteira, o script tira o código e troca por token, com PKCE quando houver
-openssl.
+quem quiser a cota maior. Ele percorre as cinco telas do Google Cloud e cai na
+**mesma** função de autorização, só que com a chave do operador, que aí vai
+gravada no `rclone.conf` porque sem ela a renovação falharia.
 
 Nos dois casos o token vai para o `rclone.conf` escrito por nós, em vez de
 `rclone config create`, porque a sintaxe desse comando mudou entre versões e o

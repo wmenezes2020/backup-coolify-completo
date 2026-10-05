@@ -1,0 +1,32 @@
+# Pasta de trabalho do teste de autorização (scripts/testa-auth.sh).
+.auth-lab/
+
+# Pacote de backup gerado em teste. NUNCA versionar: um coolify-backup-*.tar.gz
+# tem a APP_KEY, a senha de todo banco e a chave SSH privada do servidor
+# dentro. Um "git add -A" depois de um teste publicaria tudo isso.
+coolify-backup-*.tar.gz
+coolify-backup-*.tar.gz.gpg
+coolify-backup-*.tar.gz.enc
+coolify-backup-*.sha256
+*.tar.gz
+*.gpg
+*.enc
+*.dmp
+*.sql
+*.sql.gz
+
+# Chave e segredo que nunca entram em repositório
+*.pem
+*.key
+id_rsa
+id_rsa.*
+.env
+rclone.conf
+
+# Rascunho da máquina dentro do graphify-out. O resto do graphify-out É
+# versionado: ele é o mapa do repositório, não sobra de build.
+graphify-out/cache/
+graphify-out/.graphify_detect.json
+graphify-out/.graphify_extract.json
+graphify-out/.graphify_root
+graphify-out/.graphify_python

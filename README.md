@@ -19,9 +19,9 @@ A restauração devolve dados, painel e registros, e ainda sobe de volta ao ar t
 recurso que estava rodando na origem. Você não precisa clicar em Deploy.
 
 Para o backup subir sozinho para o Google Drive, acrescente `--google-drive`.
-Na primeira vez o script conduz a autorização, sem precisar de projeto no Google
-Cloud: você roda um comando no seu computador, autoriza no navegador e cola o
-token de volta.
+Na primeira vez o script mostra um link: você abre no navegador, clica em
+Permitir, copia o endereço em que o navegador caiu e cola de volta. Nada para
+instalar na sua máquina, e nada para criar no Google Cloud.
 
 ## Instalação
 
@@ -202,28 +202,30 @@ precisa de projeto no Google Cloud, nem de faturamento, nem de aprovação de ap
 sudo ./backup-coolify.sh --drive-configurar
 ```
 
-O script instala o rclone no servidor e te pede para rodar **um comando no seu
-computador**, onde existe navegador:
+Um link e uma colada. Nada para instalar na sua máquina.
 
-```bash
-rclone authorize "drive"
-```
+1. O script imprime um link. Você copia e abre no navegador do seu computador.
+2. Escolhe a conta Google onde o backup vai ficar e clica em **Permitir**.
+3. A página seguinte vai dizer que não conseguiu acessar `127.0.0.1`. É isso
+   mesmo, não deu errado: **o endereço dela é a sua resposta.**
+4. Você copia a barra de endereço inteira e cola no terminal. Acabou.
 
-O navegador abre sozinho, você escolhe a conta, clica em Permitir, e o terminal
-do seu computador imprime um bloco assim:
+O script tira o código daquela URL, troca por um token no Google e grava no
+`rclone.conf`. Se preferir, dá para colar só o pedaço depois de `code=`.
 
-```
-Paste the following into your remote machine --->
-{"access_token":"ya29...","refresh_token":"1//...","expiry":"..."}
-<---End paste
-```
+### Por que a página dá erro, e por que não dá para ser diferente
 
-Você copia e cola no terminal do servidor. Pode colar o bloco inteiro, o script
-descarta o resto. Pronto.
+O OAuth do Google exige um endereço de retorno em todo pedido de autorização.
+Como o servidor não tem navegador, esse endereço aponta para `127.0.0.1`, que é
+a sua própria máquina, onde não há nada escutando. Daí a página de erro. O
+código que importa já veio junto, no endereço.
 
-Não tem rclone no seu computador? Baixe o executável em
-[rclone.org/downloads](https://rclone.org/downloads) e rode do lugar onde ele
-caiu, sem instalar nada. Se você usa o DevBackup, ele já tem um em `tools/`.
+As duas alternativas que mostrariam o código na tela não existem mais:
+
+- o modo em que o Google exibia o código com um botão de copiar foi desligado
+  por ele em 2022, e hoje responde `Error 400: invalid_request`;
+- o modo de aparelho sem teclado, em que você digitaria um código curto em
+  `google.com/device`, não aceita o escopo do Drive.
 
 **Daí em diante:**
 
@@ -268,9 +270,8 @@ exigir faturamento e verificação em muitos casos, e nem sempre aprova.
 | `--drive-escopo E` | `total` (padrão) ou `arquivos`, que limita o acesso ao que o script cria |
 | `--drive-manter N` | guarda os N pacotes mais novos na pasta e remove os antigos |
 
-Escolhendo `--drive-escopo arquivos`, o comando que você roda no seu computador
-muda para `rclone authorize "drive" --drive-scope drive.file`. O script já mostra
-a versão certa na tela.
+Escolhendo `--drive-escopo arquivos`, o link que o script mostra já sai com o
+escopo reduzido. Você não muda nada.
 
 ### Segurança
 
