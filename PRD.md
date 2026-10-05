@@ -1,6 +1,6 @@
 # PRD: Backup e restauração total de servidor Coolify
 
-Versão 1.0.0 | 01/10/2026 | Grupo Life Company
+Versão 1.0.0 | 01/10/2026 | Wesley Menezes
 
 ## 1. Para que serve
 

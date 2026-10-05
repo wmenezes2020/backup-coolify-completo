@@ -1,7 +1,7 @@
 # SDD: Backup total de servidor Coolify em arquivo único
 
 Data: 01/10/2026
-Autor: Wesley (Grupo Life Company) com Claude Opus 5
+Autor: Wesley Menezes com Claude Opus 5
 Status: implementado
 
 ## 1. Problema
